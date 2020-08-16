@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  nginx_for_subdomain_scenario:
+    build:
+      context: .
+      dockerfile: nginx.Dockerfile
+    ports: 
+    - '80:80'
+    depends_on:
+      - helloworld
+      - apache
+  
+  helloworld:
+    image: amirhne/hello_world_flask_app
+
+  apache:
+    image: httpd
