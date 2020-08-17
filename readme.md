@@ -4,8 +4,8 @@ This project includes three container running in an isolated docker network. The
 The NGINX container will handle requests by proxy_pass to upstream servers. The requests will handle like this:
 ```
 mobit.com or any other url          >>> 	mobit.ir
-helloworld.mobit.com          >>> 	hello world flask app container
-apache.mobit.com          >>> 	apache container
+helloworld.mobit.com                >>> 	hello world flask app container
+apache.mobit.com                    >>> 	apache container
 ```
 ## How to Run it?
 For run this project you should have docker and docker-compose installed on your machine. then add this records to your machine hosts file.
