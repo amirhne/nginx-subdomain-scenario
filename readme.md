@@ -1,5 +1,5 @@
 # NGINX Subdomain Scenario
-This project includes three container running in an isolated docker network. The NGINX container will handle the http requests for subdomain and proxy pass the requests to the two other container running that are runnind apache and [simple hello world flask app](Simple Hello World Flask App).
+This project includes three container running in an isolated docker network. The NGINX container will handle the http requests for subdomain and proxy pass the requests to the two other container running that are runnind apache and (Simple Hello World Flask App).
 ## How it works?
 The NGINX container will handle requests by proxy_pass to upstream servers. The requests will handle like this:
 ```
