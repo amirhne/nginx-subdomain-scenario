@@ -8,7 +8,7 @@ helloworld.mobit.com                >>> 	hello world flask app container
 apache.mobit.com                    >>> 	apache container
 ```
 ## How to Run it?
-For run this project you should have docker and docker-compose installed on your machine. then add this records to your machine hosts file.
+To run this project you should have docker and docker-compose installed on your machine. then add this records to your machine hosts file.
 ```
 127.0.0.1		mobit.com
 127.0.0.1		www.mobit.com
