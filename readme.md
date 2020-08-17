@@ -28,7 +28,7 @@ Then cd to the project root directory and simple run this command:
 docker-compose up -d
 ```
 ### Result
-Now you can access containers by entering http://helloworld.mobit.com for hello world flask app and http://apache.mobit.com for apache.  And by entering (http://mobit.com) in you browser you will open (https://mobit.ir) website.
+Now you can access containers by entering http://helloworld.mobit.com for hello world flask app and http://apache.mobit.com for apache.  And by entering http://mobit.com in you browser you will open https://mobit.ir website.
 
 to stop the project use the following command:
 ```
